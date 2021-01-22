@@ -134,3 +134,55 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+/* Media breakpoint for mobile screens */
+@media screen and (max-width: 500px) {
+
+    .title-container div {
+        width:100%
+    }
+
+    .title-container hr {
+        width: 100vw;
+    }
+
+    .artists-container{
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .artist {
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+    }
+
+    .artist img {
+        height: 30vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
