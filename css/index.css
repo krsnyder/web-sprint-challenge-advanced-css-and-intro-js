@@ -138,6 +138,23 @@ button:hover{
 /* Media breakpoint for mobile screens */
 @media screen and (max-width: 500px) {
 
+    nav {
+        width: 50%;
+    }
+
+    nav a {
+        font-size: 4vw;
+    }
+
+    h1 {
+        font-size: 8vw;
+        font-weight: bold;
+    }
+
+    button {
+        font-size: 4vw;
+    }
+
     .title-container div {
         width:100%
     }
@@ -148,17 +165,22 @@ button:hover{
 
     .artists-container{
         flex-direction: column;
-        width: 40%;
+        width: 70%;
     }
 
     .artist {
         width: 100%;
         height: auto;
-        font-size: 1rem;
+        font-size: 2vw;
     }
 
     .artist img {
-        height: 30vw;
+        width: 70%;
+        height: 40vw;
+    }
+
+    .artist a {
+        font-size: 3vw;
     }
 }
 
