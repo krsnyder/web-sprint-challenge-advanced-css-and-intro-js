@@ -23,9 +23,22 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+  Acessibility refers to the ability of your webpage to accomodate as many different users as possible. This includes different devices (i.e., adjusting the size and position of the page contents based on the size of the device someone is using) and user capability (using semantic elements to allow screen readers to give detailed, accurate descriptions of your page to someone who is visually impaired)
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+  1. Be as specific as possible with which HTML tags you use. Instead of stacking divs on your page, use tags like section, nav, header, or footer so that each element has a clearly defined purpose.
+  2. Use other attributes where semantic tags aren't sufficient. For example the image alt attribute specifies alternate text for screen readers to process when an image cannot be viewed. ARIA role attributes also give extra descriptions to seemingly ambiguous tags.
+  3. Use media breakpoints to resize and restructure your webpage for different ranges of screen sizes, and avoid using hard coded pixel sizes for things as they don't scale with the page.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is a keyword for the location in your computer's memory where a specific value is stored. Variables allow programmers to build complicated functions and programs with data they might not have yet, or data that might change in the future. By using a variable as a placeholder within a program, the program can essentially swap out the variable for the data it represents in the future.  
+
 4. What is the purpose of using functions in code?
+
+  Functions allow programmers to perform complicated operations that might not be built into the computer program. They give programmers the ability to creatively work with data, even if they don't have the data yet. For example, a programmer can build a function (utilising those variables we just spoke about!) to perform some operation on a given set of data in the future. The programmer can then save the function and call it in the future when the data they need is available to them. How cool!  
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
